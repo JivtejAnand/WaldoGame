@@ -1,0 +1,67 @@
+body {
+    background-image: url("waldo.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: auto;
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+button {
+
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: 500;
+    width: 200px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px #b8b8b8;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+#increment-btn {
+
+    background: white;
+    
+}
+
+#save-btn {
+
+    color: white;
+    background: #00994a;
+   
+}
+
+#reset-btn {
+
+    color: white;
+    background-color: #aa0909;
+}
+
+.container {
+
+    background: linear-gradient(0deg, rgba(0, 2, 56, 0) 0%, rgba(255,255,255,0.8102591378348214) 13%, rgba(237,237,237,0.8746849081429446) 48%, rgba(180,180,180,1) 100%);
+    max-width: auto;
+    margin: auto;
+
+}
+
+#save-el {
+
+    padding-bottom: 40px;
+
+}
